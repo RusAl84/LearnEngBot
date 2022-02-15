@@ -1,10 +1,42 @@
 [
     {
-        "task": "1.txt",
-        "ans": "235",
-        "help": "1",
+        "task": "A bad beginning makes a bad ending",
+        "ans": "Плохое начало ведет к плохому концу",
+        "help": "Плохое начало не к доброму концу",
         "score": 3,
-        "solved": [
-        ]
-    }
+        "taskid": 1,
+        "solved": []
+    },
+    {
+        "task": "Make haste slowly",
+        "ans": "Торопись медленно",
+        "help": "Тише едешь, дальше будешь.",
+        "score": 3,
+        "taskid": 2,
+        "solved": []
+    },
+    {
+        "task": "Idle folks lack no excuses",
+        "ans": "У лодырей всегда отговорки находятся",
+        "help": "Труд человека кормит, а лень портит.",
+        "score": 3,
+        "taskid": 3,
+        "solved": []
+    },
+    {
+        "task": "Laws catch flies, but let hornets go free",
+        "ans": "Законы ловят мух, а шершней отпускают",
+        "help": "Закон, что паутина: шмель проскочит, а муха увязнет.",
+        "score": 3,
+        "taskid": 4,
+        "solved": []
+    },
+    {
+        "task": "Make hay while the sun shines",
+        "ans": "Коси сено, пока солнце светит",
+        "help": "Куй железо, пока горячо. Коси коса, пока роса",
+        "score": 3,
+        "taskid": 5,
+        "solved": []
+    },
 ]

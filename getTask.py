@@ -1,4 +1,9 @@
 ﻿import json
+from fuzzywuzzy import fuzz
+from fuzzywuzzy import process
+#pip install python-Levenshtein
+#pip install fuzzywuzzy
+# https://habr.com/ru/post/491448/
 
 def getTask(userid):
     fileObject = open("tasks.json", "r", encoding="UTF-8")
@@ -61,7 +66,7 @@ if __name__ == '__main__':
     print(taskid)
     score = getScore("123")
     print(score)
-    print(CheckAns("123","2", "14"))
+    print(CheckAns("123","1", "14"))
     task, ans, taskid = getTask("123")
     print(task)
     print(ans)
