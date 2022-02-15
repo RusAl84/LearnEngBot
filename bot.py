@@ -5,7 +5,6 @@ from getTask import *
 
 bot = telebot.TeleBot('5111904045:AAEDPZLqKaacz7BFQV9Aohjj-5gmjEmoUCA');
 
-
 @bot.message_handler(content_types=['text'])
 def get_text_messages(message):
     helpStr="Привет, это проект LearnEngBot - Многофункциональный сервис для изучения английского языка. \n Для информации введите /help."
@@ -24,11 +23,9 @@ def get_text_messages(message):
             str1="Ответ верный"
         bot.send_message(message.from_user.id, str1)
     elif splitted_text[0] == "/h":
-        # task, ans, taskid = getTask(message.from_user.id)
-        str1="Ответ не верный"
-        # if CheckAns(message.from_user.id,taskid, splitted_text[1]):
-        #     str1="Ответ верный"
-        # bot.send_message(message.from_user.id, str1)
+        task, ans, taskid = getTask(message.from_user.id)
+        str1=getHelp(taskid)
+        bot.send_message(message.from_user.id, str1)
     elif splitted_text[0] == "/s":
         score = getScore(message.from_user.id)
         bot.send_message(message.from_user.id, "Ваш рейтинг: "+ str(score))   

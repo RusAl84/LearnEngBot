@@ -5,7 +5,9 @@
         "help": "Плохое начало не к доброму концу",
         "score": 3,
         "taskid": 1,
-        "solved": []
+        "solved": [
+            270904285
+        ]
     },
     {
         "task": "Make haste slowly",
@@ -13,7 +15,9 @@
         "help": "Тише едешь, дальше будешь.",
         "score": 3,
         "taskid": 2,
-        "solved": []
+        "solved": [
+            270904285
+        ]
     },
     {
         "task": "Idle folks lack no excuses",
@@ -38,5 +42,5 @@
         "score": 3,
         "taskid": 5,
         "solved": []
-    },
+    }
 ]

@@ -1556,3 +1556,4 @@
 .venv/Lib/site-packages/python_Levenshtein-0.12.2-py3.8.egg-info/requires.txt
 .venv/Lib/site-packages/python_Levenshtein-0.12.2-py3.8.egg-info/SOURCES.txt
 .venv/Lib/site-packages/python_Levenshtein-0.12.2-py3.8.egg-info/top_level.txt
+__pycache__/getTask.cpython-38.pyc
